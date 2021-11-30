@@ -4,4 +4,14 @@
 
 Wave is a game originally created by RealTutsGML on Youtube
 
-This is my version of the game to learn more game development and programming fundamentals
+This is my version of the game to learn additional programming fundamentals and git
+
+##Project Outline
+
+Create a game with the goal of avoiding ornaments flying around the screen
+
+Have character as a Christmas tree
+
+Ornaments Appear on character if hit?
+
+Arcade High-Score Page after game
