@@ -18,7 +18,7 @@ public class Player extends GameObject{
 		y += velY;
 		
 		x = Game.clamp(x, 0, Game.WIDTH - 48);
-		y = Game.clamp(y, 0, Game.HEIGHT - 68);
+		y = Game.clamp(y, 0, Game.HEIGHT - 72);
 	}
 
 	public void render(Graphics g) {
