@@ -2,7 +2,6 @@ package xmas.wave;
 
 import java.awt.Color;
 import java.awt.Graphics;
-import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
 public class BasicEnemy extends GameObject{
@@ -25,13 +24,13 @@ public class BasicEnemy extends GameObject{
 		if (y <= 0 || y >= Game.HEIGHT - 42) velY *= -1;
 		if (x <= 0 || x >= Game.WIDTH - 32) velX *= -1;
 		
-		handler.addObject(new Trail(x, y, ID.Trail, Color.green, 16, 16, 0.04f, handler));
+		handler.addObject(new Trail(x, y, ID.Trail, Color.red, 16, 16, 0.05f, handler));
 	}
 
 	public void render(Graphics g) {
 		
-		g.setColor(Color.green);
-		g.fillRect(x, y, 16, 16);
+		g.setColor(Color.red);
+		g.fillOval(x, y, 16, 16);;
 	}
 
 	public Rectangle getBounds() {

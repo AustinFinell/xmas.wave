@@ -31,7 +31,8 @@ public class Game extends Canvas implements Runnable{
 		
 		handler.addObject(new Player(WIDTH/2-32, HEIGHT/2-32, ID.Player, handler));
 		
-		handler.addObject(new BasicEnemy(r.nextInt(WIDTH - 48), r.nextInt(HEIGHT - 72), ID.BasicEnemy, handler));
+		for (int i = 0; i < 5; i++)
+			handler.addObject(new BasicEnemy(r.nextInt(WIDTH - 48), r.nextInt(HEIGHT - 72), ID.BasicEnemy, handler));
 		
 		
 	}
