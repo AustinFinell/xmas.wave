@@ -38,6 +38,13 @@ public class Player extends GameObject{
 				}
 			}
 			
+			if(tempObject.getId() == ID.FastEnemy) {
+				if(getBounds().intersects(tempObject.getBounds())) {
+					HUD.HEALTH -= 4;
+					
+				}
+			}
+			
 		}
 	}
 
