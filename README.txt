@@ -9,13 +9,19 @@ This is my version of the game to learn additional programming fundamentals and 
 
 ##Project Outline
 
-[] Create a game with the goal of avoiding ornaments flying around the screen
+[x] Create a game with the goal of avoiding ornaments flying around the screen
 
-[] Have character as a Christmas tree
+[x] Have character as a Christmas tree
+
+[] Make ornaments appear realistic
 
 [] Arcade High-Score Page after game
+
+[] Hitboxed in correct shapes
 
 [] Ornaments dissapear on collision?
 
 [] Ornaments Appear on character if hit?
+
+
 
